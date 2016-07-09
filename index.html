@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Multiviewer</title>
+		<link rel="stylesheet" type="text/css" href="multiviewer.css">
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="multiviewer.js"></script>
+	</head>
+	<body>
+		<div class="cameraContainer" 
+		data-common-args="duration=1&resolution=640x480&fps=5&compression=40"
+		data-common-onclick-args="resolution=1920x1080&fps=15&compression=30"		
+		>
+			<div class="camera" data-url="truckshop1/mjpg/video.mjpg" data-name="Truck Shop 1">
+			</div>
+			<div class="camera" data-url="truckshop2/mjpg/video.mjpg" data-name="Truck Shop 2">
+			</div>
+			<div class="camera" data-url="truckshop3/mjpg/video.mjpg" data-name="Truck Shop 3">
+			</div>
+			<div class="camera" data-url="truckshop4/mjpg/video.mjpg" data-name="Truck Shop 4">
+			</div>
+			<div class="camera" data-url="lowbay1/mjpg/video.mjpg" data-name="Low Bay 1">
+			</div>
+			<div class="camera" data-url="lowbay2/mjpg/video.mjpg" data-name="Low Bay 2">
+			</div>
+		</div>
+	</body>
+</html>

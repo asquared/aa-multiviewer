@@ -1,0 +1,21 @@
+{
+  "name": "aa-multiviewer",
+  "version": "0.0.1",
+  "description": "Simple HTML5 multiviewer for IP cameras",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asquared/aa-multiviewer.git"
+  },
+  "author": {
+	"name": "Andrew Armenia",
+	"email": "<andrew@asquaredlabs.com>"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asquared/aa-multiviewer/issues"
+  },
+  "homepage": "https://github.com/asquared/aa-multiviewer#readme",
+  "dependencies": {
+    "jquery": "~3.0.0"
+  }
+}
